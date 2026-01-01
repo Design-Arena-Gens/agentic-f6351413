@@ -1,0 +1,35 @@
+:root {
+  font-size: 16px;
+  color-scheme: light dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(
+      circle at top left,
+      rgba(82, 124, 235, 0.25),
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(217, 70, 239, 0.25),
+      transparent 45%
+    ),
+    #0f172a;
+  min-height: 100vh;
+  color: #e2e8f0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
